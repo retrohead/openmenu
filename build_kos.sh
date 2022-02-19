@@ -24,8 +24,8 @@ echo "Downloading KOS and KOS ports."
 echo "Building the compiler."
 cd   "$KOS/utils/dc-chain"
 
-#cp config.mk.stable.sample config.mk
-cp config.mk.testing.sample config.mk
+cp config.mk.stable.sample config.mk
+#cp config.mk.testing.sample config.mk
 
 echo "Downloading.."
 ./download.sh
